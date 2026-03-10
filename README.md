@@ -23,7 +23,7 @@ The training pipeline includes:
 
 ## Model Architecture
 
-# Embedding Layer
+### Embedding Layer
 
 ↓ Bidirectional LSTM (256 units)
 
