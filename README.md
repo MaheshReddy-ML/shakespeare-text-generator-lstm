@@ -24,15 +24,15 @@ The training pipeline includes:
 ## Model Architecture
 
 Embedding Layer
-↓
-Bidirectional LSTM (256 units)
-↓
+      ↓
+Bidirectional LSTM (256)
+      ↓
 Dropout (0.2)
-↓
-Bidirectional LSTM (128 units)
-↓
+      ↓
+Bidirectional LSTM (128)
+      ↓
 Dropout (0.2)
-↓
+      ↓
 Dense Softmax Layer (Vocabulary Prediction)
 
 Loss Function: `Sparse Categorical Crossentropy`
